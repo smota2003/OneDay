@@ -1,9 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import App from './App';
+
+
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>hey.</Text>
+      <App />
     </View>
   );
 }
